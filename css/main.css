@@ -83,7 +83,7 @@ figure {
   margin-right: 0;
 }
 
-figure img {
+figure img, figure object {
   max-width: 100%;
 }
 
