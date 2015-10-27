@@ -36,10 +36,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <projects/2#> a rc:ResearchProject, cc:Work, prov:Entity ;
-  dcterms:creator <http://cman.ch/#i> ;
+  dcterms:publisher <http://cman.ch/#i> ;
   rdfs:label "The Backcountry Birth of George F. Ring"@en ;
-  prov:wasDerivedFrom <#building_context> ;
-  foaf:isPrimaryTopicOf <#building_context> ;
   cc:license <http://creativecommons.org/licenses/by-sa/4.0/> .
 
 <anno1> a oa:Annotation ;
