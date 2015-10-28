@@ -2,7 +2,6 @@
   "name": "steps-to-the-future",
   "version": "1.0.0",
   "description": "A journey through the past, present, and future of research publication.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/pentandra/steps-to-the-future.git"
   },
-  "author": "Pentandra",
+  "author": "Chris Chapman <chris@pentandra.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pentandra/steps-to-the-future/issues"
