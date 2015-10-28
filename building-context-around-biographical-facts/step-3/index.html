@@ -24,11 +24,67 @@
 
       <h1 property="schema:title">The Backcountry Birth of George F. Ring</h1>
 
+      <p property="dcterms:creator" resource="[this-project:#genealogyjohn]" typeof="schema:Person">By <span property="schema:name">John Colletta, Ph.D.</span></p>
+
     </header>
 
+    <section id="rcase-1" property="schema:hasPart" resource="[this-project:#rcase-1]" typeof="rcases:ResearchCase">
+
+      <h2 property="rcases:question">Did George have any brothers or sisters?</h2>
+
+    </section>
+    <section id="rcase-2" property="schema:hasPart" resource="[this-project:#rcase-2]" typeof="rcases:ResearchCase">
+
+      <h2 property="rcases:question">Where were they born?</h2>
+
+      <p>Triggered by <a property="rcases:trigger" resource="[this-project:#rcase-1]" href="#rcase-1">RC1</a></p>
+
+    </section>
+    <section id="rcase-3" property="schema:hasPart" resource="[this-project:#rcase-3]" typeof="rcases:ResearchCase">
+
+      <h2 property="rcases:question">When were they born?</h2>
+
+      <p>Triggered by <a property="rcases:trigger" resource="[this-project:#rcase-1]" href="#rcase-1">RC1</a></p>
+
+    </section>
+    <section id="rcase-4" property="schema:hasPart" resource="[this-project:#rcase-4]" typeof="rcases:ResearchCase">
+
+      <h2 property="rcases:question">Where were they baptized?</h2>
+
+      <p>Triggered by <a property="rcases:trigger" resource="[this-project:#rcase-1]" href="#rcase-1">RC1</a></p>
+
+      <p property="rcases:conclusion">The Roman Catholic faith, in either Cincinnati or Buffalo.</p>
+
+    </section>
+    <section id="rcase-5" property="schema:hasPart" resource="[this-project:#rcase-5]" typeof="rcases:ResearchCase">
+
+      <h2 property="rcases:question">How long after they were born were they baptized?</h2>
+
+      <p>Triggered by <a property="rcases:trigger" resource="[this-project:#rcase-1]" href="#rcase-1">RC1</a></p>
+
+      <p property="rcases:conclusion">All older siblings were baptized immediately after birth.</p>
+
+    </section>
+    <section id="rcase-6" property="schema:hasPart" resource="[this-project:#rcase-6]" typeof="rcases:ResearchCase">
+
+      <h2 property="rcases:question">How long after George was born was he baptized?</h2>
+
+      <p>Triggered by <a property="rcases:trigger" resource="[this-project:#rcase-5]" href="#rcase-5">RC5</a></p>
+
+      <p property="rcases:conclusion">George was baptized 3 and a half months later.</p>
+
+    </section>
     <section id="rcase-8" property="schema:hasPart" resource="[this-project:#rcase-8]" typeof="rcases:ResearchCase">
 
       <h2 property="rcases:question">What was the reason for the delay of George’s christening?</h2>
+
+      <p>Triggered by <a property="rcases:trigger" resource="[this-project:#rcase-6]" href="#rcase-6">RC6</a></p>
+
+    </section>
+
+    <section id="only-a-few-bones" resource="urn:isbn:9780970132703:47-75" typeof="schema:Book bibo:Book">
+
+      <p><span property="schema:name bibo:title">Only a Few Bones: A True Account of the Rolling Fork Tragedy and Its Aftermath</span>, by <span property="schema:creator" resource="[this-project:#genealogyjohn]">John Colletta</span></p>
 
     </section>
 
