@@ -1,0 +1,19 @@
+{
+  "name": "steps-to-the-future",
+  "version": "1.0.0",
+  "description": "A journey through the past, present, and future of research publication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pentandra/steps-to-the-future.git"
+  },
+  "author": "Pentandra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pentandra/steps-to-the-future/issues"
+  },
+  "homepage": "https://github.com/pentandra/steps-to-the-future#readme"
+}
